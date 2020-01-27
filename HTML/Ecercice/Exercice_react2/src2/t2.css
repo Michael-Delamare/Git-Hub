@@ -1,0 +1,31 @@
+/* file: styles.css */
+html {
+    font: 18px Helvetica, sans-serif;
+  }
+  
+  .counter {
+    margin: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .counter-value {
+    margin: 0 1em;
+  }
+  
+  .button {
+    margin-right: 4px;
+    background: none;
+    border: none;
+    padding: 1em 1.4em;
+    color: white;
+    border-radius: 3px;
+  }
+  
+  .button.dec {
+    background-color: #ed2953;
+  }
+  
+  .button.inc {
+    background-color: #39c15e;
+  }

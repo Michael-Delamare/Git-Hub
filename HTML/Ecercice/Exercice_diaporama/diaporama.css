@@ -1,0 +1,27 @@
+#divBg{
+    background-color: black;
+    height: 400px;
+    width: 800px;
+    padding: 10px;
+}
+
+#divImage{
+    height: 350px;
+    width: 600px;
+    margin: 5px;
+}
+
+#divBouton{
+    text-align: center;
+    margin-top: 7.5px;
+    width: 100%;
+}
+
+.buttonImg{
+    width: 110px;
+}
+
+img{
+    max-width: 630px;
+    max-height: 350px;
+}

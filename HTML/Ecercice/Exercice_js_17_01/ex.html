@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="ex.css">
+</head>
+
+<body>
+    <button class="couleur_rouge" id='red' onclick="chcouleur('red')"> Rouge</button>
+    <button class="couleur_vert" id='vert' onclick="chcouleur('green')">Vert</button>
+    <button class="couleur_bleu" id='bleu' onclick="chcouleur('blue')">Bleu</button>
+    <button class="random" id='random' onclick="chrcouleur('color')">Random</button>
+    <button class="random2" id='random2' onclick="chrcouleur('color')">Random2</button>
+    <div id="carre"></div>
+    <div id="cadre"></div>
+    <div>
+        <span id="heure" class="redcolor">00:00:00</span>
+    </div>
+    <button id="idAddPara" onclick="addPara()">Click here</button>
+    <span id="count"></span>
+    <div id="div1"></div>
+    <h1>Todo List</h1>
+    <input type="text" required id="input"></input>
+    <button onclick="addTodo()">Add</button>
+    <div>
+        <ul id="ul">
+            <li id="li">valider mon html</li>
+            <li>enjoliver mon css</li>
+            <li>rendre cela plus dynamique</li>
+            <li>aller dormir</li>
+        </ul>
+    </div>
+
+    <p>
+        <label>Pounds</label>
+        <input id="inputPounds" type="number" placeholder="Pounds"
+        oninput="weightConverter(this.value)" onchange="weightConverter(this.value)">
+      </p>
+      <p>Grams: <span id="outputGrams"></span></p>
+
+
+      
+    <script type="text/javascript" src="ex.js"></script>
+</body>
+
+</html>

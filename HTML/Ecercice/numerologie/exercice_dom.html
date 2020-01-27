@@ -1,0 +1,104 @@
+<html>
+
+<head>
+    <meta />
+    <title> illustration dom </title>
+    <link rel="stylesheet" href="dom.css">
+</head>
+
+<body>
+
+    <h1 id="liste1"> un gros titre </h1>
+    <p> un paragraphe </p>
+    <ul>
+        <li> <a>texte1</a> </li>
+        <li> <a>texte2</a> </li>
+        <li> <a>texte3</a> </li>
+        <li> <a id="lien1" href="http://www.google.fr" class="ulno">texte1</a> </li>
+       <ul id="liste1">
+            <li> <a>texte1</a> </li>
+            <li> <a>texte2</a> </li>
+            <li> <a>texte3</a> </li>
+        </ul>
+        <ul id="liste1">
+            <li> <a>texte1</a> </li>
+            <li> <a>texte2</a></li>
+            <li><a>texte3</a> </li>--> 
+        </ul>
+    </ul>
+
+    <input id ="bouton2" type="button" value="bouton2"/>
+    <script type="text/javascript">
+        var btn2 = document.getElementById('bouton2');
+        btn2.addEventListener('click',function(){alert('Bonjour du bouton2');},true);
+    </script>
+    <div id="testclick">Cliquez!</div>
+    <div id="testclick2">Cliquez!</div>
+    <div id="idevement">Mon événement javascript<img src="monimage.gif" id="monimage"></div>
+    <span id="clickme">Cliquez-moi !</span>
+
+    <p id="result"></p>
+<div id="parent1">
+    Parent
+    <div id="child1">Enfant N°1</div>
+    <div id="child2">Enfant N°2</div>
+</div>
+
+<div id="position"></div>
+<p>
+    <input id="field" type="text" />
+    </p>
+    
+    <table>
+    <tr>
+    <td>keydown</td>
+    <td id="down"></td>
+    </tr>
+    <tr>
+    <td>keypress</td>
+    <td id="press"></td>
+    </tr>
+    <tr>
+    <td>keyup</td>
+    <td id="up"></td>
+    </tr>
+    </table>
+    <a id="link" href= " http://www.developpez.com/">Cliquez-moi !</a>
+    
+    <p>A script on this page starts this clock:</p>
+<p id="demo"></p>
+
+<script>
+//définition du timer
+var myVar = setInterval(myTimer, 1000);
+//fonction à répéter
+function myTimer() {
+    var d = new Date();
+    document.getElementById("demo").innerHTML = d.toLocaleTimeString();
+}
+</script>
+ ```
+
+_**window.clearInterval(timerVariable)**_
+
+Définition: permet de stopper l’effet de la fonction  setIntervals().
+
+Exemple (à intégrer dans une page html):
+
+```html
+
+<p id="demo"></p>
+<button onclick="clearInterval(myVar)">Stop time</button><script>
+var myVar = setInterval(myTimer, 1000);
+function myTimer() {
+var d = new Date();
+document.getElementById("demo").innerHTML = d.toLocaleTimeString();}</script>
+
+
+
+
+    <script type="text/javascript" src="dom.js"></script>
+
+</body>
+
+</html>

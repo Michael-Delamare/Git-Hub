@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="image cv/cv.css">
+    <title>Michael Delamare</title>
+</head>
+
+<body>
+    <header>
+
+        
+    </header>
+    <nav class="navbar">
+            <button class="bouton_static"><a href="#bpresentation">Moi</a></button>
+            <button class="bouton_static"><a href="#bcompetences">Compétences</a></button>
+            <button class="bouton_static"><a href="#bexperiences">Experiences</a></button>
+            <button class="bouton_static"><a href="#bformation">Formation</a></button>
+            <button class="bouton_static"><a href="#bportfolio">Portfolio</a></button>
+            <button class="bouton_static"><a href="#bcontact">Contact</a></button>
+        </nav>
+    <div class="presentation" id="bpresentation">
+        <h1>Michael Delamare</h1>
+        <img class="moi" src="image cv/moi.jpg">
+        <h2>Développeur Web Junior</h2>
+    </div>
+    <hr id="bcompetences">
+    <div class="impaire">
+        <h2>Compétences</h2>
+        <div class="divimageCompetence">
+            <img class="imageCompetence2" src="image cv/html.png" alt="html">
+            <img class="imageCompetence2" src="image cv/css.png" alt="css">
+            <img class="imageCompetence2" src="image cv/javascript.png" alt="javascript">
+            <img class="imageCompetence2" src="image cv/php.png" alt="php">
+        </div>
+        <div class="divimageCompetence2">
+            <img class="imageCompetence4" src="image cv/java.jpg" alt="java">
+            <img class="imageCompetence4" src="image cv/c.png" alt="c">
+            <img class="imageCompetence4" src="image cv/mysql.png" alt="sql">
+            <img class="imageCompetence4" src="image cv/git.jpg" alt="git">
+        </div>
+    </div>
+    <div>
+        <hr id="bexperiences">
+        <div class="paire">
+            <h2>Experiences Développement</h2>
+            <lo>
+                <li>
+                    Convertisseur Numérique [Langage C]
+                </li>
+                <li>
+                    Plateforme de Jeux Vidéo [JavaFx]
+                </li>
+            </lo>
+        </div>
+        <hr id="bformation">
+        <div class="impaire">
+            <div>
+                <h2>Formation</h2>
+            </div>
+            <div class="formation">
+                <div class="texte">
+                    <div class="date"> De Octobre 2019 à septembre 2020</div>
+                    <div class="lieu"> Callac Soft College</div>
+                    <h3 class="nomformation">Formation de Développeur web et logiciel</h3>
+                    <img class="imgformation1" src="image cv/dev.png" alt="">
+                </div>
+                <div class="texte">
+                    <div class="date">2016</div>
+                    <div class="lieu">Greta Carhaix</div>
+                    <h3 class="nomformation">Titre Professionnel de conducteur du transport routier de marchandises sur
+                        Porteur
+                        et sur tout véhicules</h3>
+                    <img class="imgformation2" src="image cv/camion.jpg" alt="">
+                </div>
+                <div class="texte">
+                    <div class="date">De 2008 à 2012</div>
+                    <div class="lieu">Pommerit-Jaudy</div>
+                    <h3 class="nomformation">Bac Pro Conduite et Gestion d'une Exploitation Agricole Option Equitation
+                    </h3>
+                    <img class="imgformation3" src="image cv/cheval.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <hr id="bportfolio">
+        <div class="paire">
+            <h2>Portfolio</h2>
+        </div>
+        <div>
+            <a href="file:///C:/Users/ASUS/Desktop/HTML/cv/cv.html">
+                <img class="image-cv" src="image cv/cv.png" alt="image-site-cv"></a>
+        </div>
+        <hr id="bcontact">
+        <div class="icontact">
+            <div class="hcontact">
+                <h2>Contactez-moi</h2>
+            </div>
+            <div class="labelContact">
+                <div class="contact">
+                    <p>
+                        <h3 class="titrecontact">Email</h3><br />
+                        <p class="pcontact"> michael111@hotmail.fr</p> <br />
+                    </p>
+                    <p class="pcontact">
+                        <h3 class="titrecontact">Adresse</h3><br />
+                        <p class="pcontact"> 18 rue du Fréau <br /> Code Postal 29246 <br /> Poullaouen,France</p>
+                        <br />
+                    </p>
+                    <p class="pcontact">
+                        <h3 class="titrecontact">Telephone</h3><br />
+                        <p class="pcontact"> 06 47 82 08 39 </p><br />
+                    </p>
+                </div>
+                <div class="icontacta">
+                    <div class="icontact4">
+                        <div class="icontact1"><label for="firstname">Prénom*</label>
+                            <input type="text" id="firstname" name="firstname" class="form-control"
+                                placeholder="Votre prénom">
+                            <label for="name">Nom*</label>
+                            <input type="text" id="name" name="name" class="form-control" placeholder="Votre nom">
+
+                        </div>
+                        <div class="icontact2"><label for="email">Email*</label>
+                            <input type="text" id="email" name="email" class="form-control" placeholder="Votre email">
+                            <label for="phone">Téléphone</label>
+                            <input type="phone" id="phone" name="phone" class="form-control"
+                                placeholder="Votre téléphone">
+                        </div>
+                    </div>
+
+                    <div class="icontact3"><label for="message" class="form-control1">Message*</label>
+                        <textarea id="message" name="message" class="form-control1"
+                            placeholder="Votre message"></textarea>
+                        <p class="blue"><strong>* champs obligatoires</strong></p>
+                        <input type="submit" class="button1" value="Envoyer"></div>
+                </div>
+            </div>
+
+        </div>
+
+        <footer>
+            <p><i class="arrow up"></i></p>
+            <h5> © 2020 - Michael Delamare</h5>
+        </footer>
+</body>
+
+</html>

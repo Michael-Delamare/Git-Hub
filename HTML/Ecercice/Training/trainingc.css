@@ -1,0 +1,89 @@
+.imgDev{
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    margin-right: 30px;
+    display: inline-flex;
+    margin-left: 0rem;
+}
+.imgDev2{
+    height: 50px;
+    width: 80px;
+    border-radius: 100%;
+    margin-right: 30px;
+    margin-left: 8rem;
+}
+.imgDev3{
+    height:35px;
+    width: 30px;
+    margin-bottom: 0.3rem;
+    margin-right: 30px;
+    margin-left: 5rem;
+}
+.imgDev4{
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    margin-right: 30px;
+    display: inline-flex;
+    margin-left: 0rem;
+    margin-left: 5rem;
+}
+.imgDev5{
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    margin-right: 30px;
+    display: inline-flex;
+    margin-left: 3rem;
+}
+
+.black{
+   color: black;
+   text-transform: uppercase;
+   font-weight: bold;
+   font-size: 0.8rem;
+}
+
+.grey{
+    color: gray;
+    font-weight: unset;
+    font-size: 0.8rem;
+}
+.red{
+    color:black;
+    font-size: 1.2rem;
+}
+
+.card{
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    width: 450px;
+    border: 2px solid rgb(119, 112, 112);
+    padding: 0.5rem;
+    box-shadow: black;
+}
+
+#app{
+    border-color: black;
+}
+
+.duser{
+    margin-top: 17px;
+    border-color: black;
+}
+
+.divBas{
+    border: 2px solid rgb(119,112,112);
+    border-top: hidden;
+    height: 50px;
+    width: 466px;
+}
+
+.nb{
+    margin-bottom: 0px;
+    margin-top: 0rem;
+    font-weight: bolder;
+}

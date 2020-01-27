@@ -1,0 +1,50 @@
+
+
+#carre{ 
+    height: 200px;
+    width: 248px;
+}
+
+.red{
+    background-color: red;
+    height: 200px;
+    width: 248px;
+}
+.green{
+    background-color: green;
+    height: 200px;
+    width: 248px;
+}
+.blue{
+    background-color: blue;
+    height: 200px;
+    width: 248px;
+}
+
+.greencolor{
+    color: green;
+    font: bold;
+    font-size:40px;
+    width: 150px;
+}
+
+.redcolor{
+    background-color:#1C1C1C;
+    color:red;
+    font-size:40px;
+    width: 150px;
+    font-style: italic;
+}
+
+ul {
+    list-style: none; /* Remove default bullets */
+  }
+  
+  ul li::before {
+    content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: red; /* Change the color */
+    font-weight: bold; /* If you want it to be bold */
+    display: inline-block; /* Needed to add space between the bullet and the text */
+    width: 1em; /* Also needed for space (tweak if needed) */
+    margin-left: -1em; /* Also needed for space (tweak if needed) */
+  }
